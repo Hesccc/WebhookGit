@@ -1,0 +1,10 @@
+[Unit]
+Description=Hexo WebHook Auto Git Pull
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/bin/python3 /opt/tools/webhookGit/app.py
+Restart=always
+
+[Install]
