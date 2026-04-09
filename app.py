@@ -5,7 +5,7 @@ import hashlib
 import subprocess
 
 app = Flask(__name__)  # 初始化Flask
-WEBHOOK_SECRET = "9tEPDaJtJDLf5vm0zVlkSqNgYA8NWCUnsz8Kbx3x2qzEOy1Cld"
+WEBHOOK_SECRET = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # 全局初始化日志记录对象
 log = logs.configuration()
